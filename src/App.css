@@ -2,6 +2,128 @@
   text-align: center;
 }
 
+/* App.css */
+/* Baby Blue Theme */
+body {
+  background-color: #c0e8e8;
+  /* Baby Blue */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.inputBox,
+.editInput {
+  margin: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #3a8fac;
+  /* Complementary Color */
+  border-radius: 4px;
+}
+
+.addButton,
+.editButton,
+.deleteButton,
+.deleteAllButton,
+.saveButton {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.addButton,
+.saveButton {
+  background-color: #3a8fac;
+  /* Complementary Color */
+}
+
+.editButton {
+  background-color: #4895ef;
+  /* Another Color from Palette */
+}
+
+.deleteButton {
+  background-color: #e54b4b;
+  /* Another Color from Palette */
+}
+
+.deleteAllButton {
+  background-color: #7a7a7a;
+  /* Another Color from Palette */
+}
+
+.saveButton {
+  background-color: #4caf50;
+  /* Another Color from Palette */
+}
+
+.todoListContainer {
+  border: 2px solid #3a8fac;
+  /* Border Color */
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+  /* Adjust as needed */
+  max-width: 400px;
+  /* Adjust as needed */
+  list-style-type: none;
+  /* Remove default list styles */
+}
+
+/* App.css */
+
+/* App.css */
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  /* Adjust as needed */
+}
+
+.editButton,
+.deleteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Adjust the icon colors, sizes, and other styles as needed */
+.editButton i,
+.deleteButton i,
+.saveButton i {
+  color: #3a8fac;
+  /* Icon Color */
+  font-size: 20px;
+  /* Icon Size */
+  margin-left: 8px;
+  /* Spacing between icons and text */
+}
+
+.deleteButton {
+  order: 1;
+  /* Move the delete button to the right */
+  margin-left: auto;
+  /* Align to the right */
+}
+
+/* Other existing styles... */
+
+
+
+/* Other styles for the rest of the components */
+/* ... */
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +154,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
